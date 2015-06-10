@@ -6,24 +6,24 @@ package sandbox.java8.cp2;
  */
 class Apple {
     private String color;
-    private int wight;
+    private int weight;
 
     public Apple(String color, int wight) {
         this.color = color;
-        this.wight = wight;
+        this.weight = wight;
     }
 
     public String getColor() {
         return color;
     }
 
-    public int getWight() {
-        return wight;
+    public int getWeight() {
+        return weight;
     }
 
     @Override
     public String toString() {
-        return "Apple{" + "color=" + color + ", wight=" + wight + '}';
+        return "Apple{" + "color=" + color + ", wight=" + weight + '}';
     }
     
 }
